@@ -10,8 +10,7 @@ CREATE TABLE users (
     user_tel VARCHAR(20)                 
 );
 
--- 2. สร้างตาราง item
-CREATE TABLE item (
+CREATE TABLE items (
     item_id SERIAL PRIMARY KEY,
     productname VARCHAR(255) NOT NULL,
     sku VARCHAR(50) UNIQUE,             
@@ -40,3 +39,4 @@ CREATE TABLE artists (
 );
 
 --ผมลองเขียนตามความเข้าใจของตัวเองแล้วครับแล้วให้ AI เช็คความถูกต้องและ Direction ที่อยากให้เป็นครับ
+--ผมสร้างสองอันมาแล้วผมเจอบัค วันนี้ขอทำแค่ตาราง user ก่อนนะครับ
